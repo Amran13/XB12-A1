@@ -1,3 +1,6 @@
+body{
+    background-color: #F5F8FF;
+}
 /* heading css */
 .header{
     background-image: url('../images/Hero-bg.png');
@@ -17,7 +20,7 @@
 
 /* action css */
 .action{
-    background-color: rgb(235, 249, 255);
+    background-color: #F5F8FF;
 }
 
 .action-content{
@@ -35,6 +38,32 @@
     margin-bottom: 50px;
     color: gray;
     font-size: larger;
+}
+
+/* user css */
+
+.user-content{
+    background-color: #e0e8fc;
+    border-radius: 50px;
+}
+.user-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 75px;
+    
+
+}
+.user-section-heading{
+    text-align: center;
+    font-size: 54px;
+    padding-top: 50px;
+    line-height: 0px;
+}
+.user-heading{
+    font: bolder;
+    font-size: 70px;
+    line-height: 0px;
+    color: royalblue;
 }
 
 
