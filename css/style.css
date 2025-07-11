@@ -107,6 +107,36 @@ body{
     color: gray;
 }
 
+
+/* form css */
+.input-container{
+    display: block;
+}
+
+
+
+/* footer css */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-link>a{
+    text-decoration: none;
+    color: gray;
+
+}
+
+
+
 /* shared css */
 .container{
     max-width: 1280px;
@@ -161,7 +191,10 @@ body{
     margin: 180px 0px;
 }
 
-
+.gray{
+    color: gray;
+    padding: 20px 0;
+}
 .padding-tb{
     padding: 50px 0px;
 }
