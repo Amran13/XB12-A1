@@ -1,5 +1,6 @@
 body{
     background-color: #F5F8FF;
+    font-family: Arial, sans-serif;
 }
 /* heading css */
 .header{
@@ -110,10 +111,29 @@ body{
 
 /* form css */
 .input-container{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    padding: 50px;
 }
 
+.input-container>input{
+    padding: 15px;
+    border-radius: 7px;
+}
+.input-container>textarea{
+    padding: 15px;
+    border-radius: 7px;
+}
 
+.form-content{
+    display: flex;
+}
+.form-heading{
+    font-size: 70px;
+    text-align: center;
+}
 
 /* footer css */
 .footer{
@@ -175,6 +195,10 @@ body{
 
 }
 
+.text-center{
+    text-align: center;
+}
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -197,4 +221,11 @@ body{
 }
 .padding-tb{
     padding: 50px 0px;
+}
+
+.logo{
+    font-size: 36px;
+    color: royalblue;
+    font-weight: bolder;
+    line-height: 2px;
 }
