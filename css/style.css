@@ -1,0 +1,55 @@
+/* heading css */
+.header{
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    font-size: 30px;
+    height: 700px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* shared css */
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.btn{
+    background-color: rgb(91, 126, 233);
+    padding: 15px 40px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    height: 46px;
+}
+
+.btn-animation:hover{
+    background-color: rgb(18, 73, 238);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
