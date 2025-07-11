@@ -80,7 +80,11 @@ body{
     padding: 30px;
     border-radius: 20px;
 }
+.user-info{
+    color: gray;
+    font-weight: 500;
 
+}
 .star{
     display: flex;
     gap: 10px;
@@ -132,7 +136,6 @@ body{
 }
 .form-heading{
     font-size: 70px;
-    text-align: center;
 }
 
 /* footer css */
