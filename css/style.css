@@ -15,7 +15,27 @@
     flex-direction: column;
 }
 
+/* action css */
+.action{
+    background-color: rgb(235, 249, 255);
+}
 
+.action-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.action-img{
+    border-radius: 50px;
+}
+
+.action-p{
+    margin-bottom: 50px;
+    color: gray;
+    font-size: larger;
+}
 
 
 /* shared css */
@@ -39,8 +59,21 @@
     font-weight: 700;
 }
 
+.half{
+    width: 50%;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
 .center{
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .flex{
@@ -52,4 +85,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.section-margin{
+    margin: 50px 0px;
+}
+
+
+.padding-tb{
+    padding: 50px 0px;
 }
